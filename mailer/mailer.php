@@ -9,7 +9,7 @@ else
 {
     require 'config.php';
     require 'templater.php';
-    require '../libs/phpmailer/PHPMailerAutoload.php';
+    require 'libs\phpmailer\PHPMailerAutoload.php';
 
     $mail = new PHPMailer;
 

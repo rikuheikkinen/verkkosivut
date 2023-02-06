@@ -5,7 +5,7 @@ require 'config.php';
 function parseTemplate ($form_data) {
     global $template_color;
 
-    $template = file_get_contents('templates/template.html');
+    $template = file_get_contents('mailer\templates\template.html');
 
     if ($template)
     {
